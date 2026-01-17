@@ -1,0 +1,12 @@
++TITLE: Solidity Coursework
+#+AUTHOR: Filip Bielejec
+#+LANGUAGE: en
+#+latex_class_options: [12pt]
+#+INCLUDE: homework1.org
+
+* Table of Contents
+
+| file       | Description       |
+|------------+-------------------|
+| TODO       | NOTES: lecture1   |
+| homework 1 | [[https://github.com/fbielejec/Solidity-Speed-Quiz][SoliditySpeedQuiz]] |
