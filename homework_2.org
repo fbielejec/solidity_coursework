@@ -1,0 +1,7 @@
+* IN-PROGRESS HW2
+- [ ] https://rareskills.notion.site/Homework-ERC-20-2f15396265d780f4aee7c22fd50619a8
+- [ ] https://github.com/RareSkills/Buggy-ERC-20
+- [ ] Code an ERC-20 from scratch. You can use an AI to catch any mistakes you may have made.
+  - Suggestion: Clone the Solmate repo and delete the code for [ERC-20](https://github.com/transmissions11/solmate/blob/main/src/tokens/ERC20.sol). Then see if you can make the tests pass. Delete tests related to `permit`.
+- [ ] Can you recall the four under-specifications in ERC-20?
+- [ ] Set up a 1:1 call

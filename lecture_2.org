@@ -1,0 +1,11 @@
+* notes
+- ERC20
+  - memorize all erc20 functions (before the 1:1)
+  - code it from scratch
+  - problems with the spec
+   - returning booleans
+   - sending it address 0x0 (spec is not saying anything about it being a special address, which many protocols do, e.g. by burning as sending to that address)
+   - transferFrom where the recipient is the msg.sender (you).
+   - approvals for uint256.max (infinite allowance). Some implementation still deduce it from the allowance.
+ - events and what is indexed (addresses)
+- ERC20 from scratch

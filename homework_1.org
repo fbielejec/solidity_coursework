@@ -1,4 +1,4 @@
 * IN-PROGRESS Homework 1 (cross-contract calls)
-- [ ] https://github.com/RareSkills/Solidity-Speed-Quiz
+- [X] https://github.com/RareSkills/Solidity-Speed-Quiz
 - [ ] https://rareskills.notion.site/Cross-Contract-Quiz-2bf5396265d780beae92fb0afe08b6df
-** 
+ - [ ] https://github.com/fbielejec/CrossContractQuiz/tree/solutions
