@@ -6,7 +6,10 @@
 
 * Table of Contents
 
-| file       | Description       |
-|------------+-------------------|
-| TODO       | NOTES: lecture1   |
-| homework 1 | [[https://github.com/fbielejec/Solidity-Speed-Quiz][SoliditySpeedQuiz]] |
+| file       | Description        |
+|------------+--------------------|
+| TODO       | NOTES: lecture1    |
+| homework 1 | [[https://github.com/fbielejec/Solidity-Speed-Quiz][SoliditySpeedQuiz]]  |
+|            | [[https://github.com/fbielejec/CrossContractQuiz/tree/solutions][CrossContractQuizz]] |
+| lecture 2  | [[file:lecture_2.org][Lecture2]]           |
+| homework 2 | [[https://github.com/fbielejec/ERC20][ERC20]]              |
