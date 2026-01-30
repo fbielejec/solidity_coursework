@@ -1,7 +1,15 @@
 * IN-PROGRESS HW2
-- [ ] https://rareskills.notion.site/Homework-ERC-20-2f15396265d780f4aee7c22fd50619a8
+- [X] https://rareskills.notion.site/Homework-ERC-20-2f15396265d780f4aee7c22fd50619a8
 - [ ] https://github.com/RareSkills/Buggy-ERC-20
-- [ ] Code an ERC-20 from scratch. You can use an AI to catch any mistakes you may have made.
+- [X] Code an ERC-20 from scratch. You can use an AI to catch any mistakes you may have made.
   - Suggestion: Clone the Solmate repo and delete the code for [ERC-20](https://github.com/transmissions11/solmate/blob/main/src/tokens/ERC20.sol). Then see if you can make the tests pass. Delete tests related to `permit`.
 - [ ] Can you recall the four under-specifications in ERC-20?
-- [ ] Set up a 1:1 call
+  - transferFrom when the owner is the msg.sender (transferring to oneself): should it check allowance?
+  - infinite allowance : should they be decreased or not?
+  - lack of error handling (state mutating functions return true or revert). There is no standard required mechanism for reverting a transaction when something goes wrong
+  - transfers to address(0x0)
+- More problems:
+  - race conditions when setting allowance (Example: Alice approved Bob to spend 100 tokens, she then tries to change the allowance to 50, but Bob calls =transferFrom= on the original allowance before Alice new =approve= is processed)
+  - limited metadata
+  - unwanted token transfers
+- [X] Set up a 1:1 call

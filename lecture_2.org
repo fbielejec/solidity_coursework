@@ -8,4 +8,5 @@
    - transferFrom where the recipient is the msg.sender (you).
    - approvals for uint256.max (infinite allowance). Some implementation still deduce it from the allowance.
  - events and what is indexed (addresses)
-- ERC20 from scratch
+
+[[file:erc20.jpg][ERC20 interface]]
