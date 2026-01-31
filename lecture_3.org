@@ -1,0 +1,8 @@
+- erc20 approval frontrunning
+  - defending with 0 allowance
+  - defending with increase/decrease allowance (openzeppelin style)
+- USDT forces the -0 allowance when re-setting it:
+  - ! ((value != 0) AND (allowance !=0) )
+    - safeERC20::forceApproval to the rescue
+- safeERC20::safeTransfer
+- USDT fee in transfer

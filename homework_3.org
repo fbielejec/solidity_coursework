@@ -1,0 +1,18 @@
+* TODO Reading
+- [ ] https://leather-bulb-be5.notion.site/Homework-2f85396265d780319be9e93d0b9fc504
+- [ ] https://rareskills.io/post/staking-algorithm
+* TODO Week 3
+- [ ]  Token Sale
+- [ ]  Basic Bank
+- [ ]  Payment Splitter
+- [ ]  Decimal Swap
+- [ ]  Weekly Salary
+- [ ]  UniswapV2StyleDeposit
+- [ ]  WETH
+* TODO Week 4
+- [ ]  Linear Vest
+- [ ]  Token Wrapper
+- [ ]  Oracle Pool
+- [ ]  LinearDutchAuctionFactory
+- [ ]  Crowdfunding app
+- [ ]  SlimStake
